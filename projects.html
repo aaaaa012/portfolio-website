@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Ghimire Portfolio - Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-size: cover;
+            overflow-y: scroll;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: right;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        header ul li a:hover {
+            color: #ffd700;
+        }
+
+        .linkedin-link {
+            margin-left: auto;
+        }
+
+        .linkedin-link a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .linkedin-link a:hover {
+            color: #ffd700;
+        }
+
+       
+        .container {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 40px;
+            margin: 150px auto;
+            max-width: 800px;
+            text-align: left;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .container h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: #ffd700;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        .container p {
+            font-size: 20px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .project .info {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .project h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 18px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .project img {
+            max-width: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="tech.html">Technologies</a></li>
+                <li><a href="about.html">About Me</a></li>
+               
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Projects I've Done</h1>
+
+        <!-- Project 1 -->
+        <div class="project">
+            <img src="C:\Users\Anusha\Documents\VPProjects\images\fishtail.jpg" alt="Project 1">
+            <div class="info">
+                <h2>Warehouse Management System</h2>
+                <p>Implemented a warehouse Management System for Barcoding Technologies.</p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project">
+            <img src="C:\Users\Anusha\Documents\VPProjects\images\cifar10.jpg" alt="Project 2">
+            <div class="info">
+                <h2>Convulational Neural Network On CIFAR100 Datasets</h2>
+                <p>For this project, I developed a Convolutional Neural Network (CNN) using TensorFlow's Functional API to perform image classification on the CIFAR-100 dataset. CIFAR-100 is a widely used dataset consisting of 60,000 32x32 color images across 100 different classes, each containing 600 images.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Anusha\Documents\VPProjects\images\fashionmnist.jpg" alt="Project 2">
+            <div class="info">
+                <h2>Convulational Neural Network On FASHION MNIST Datasets </h2>
+                <p>For this project, I developed a Convolutional Neural Network (CNN) using TensorFlow's Functional API to perform image classification on the Fashion MNIST dataset. The Fashion MNIST dataset is a collection of 70,000 grayscale images categorized into 10 different clothing items, each represented in a 28x28 pixel format.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Anusha\Documents\VPProjects\images\linearregression.jpg" alt="Project 2">
+            <div class="info">
+                <h2>Linear Regression for Predicting Stock Prices</h2>
+                <p>As part of my data analysis and predictive modeling endeavors, I developed a linear regression model to forecast stock prices based on historical data. This project aimed to leverage machine learning techniques to predict future stock prices, providing valuable insights for investors and financial analysts.</p>
+            </div>
+        </div>
+        <div class="project">
+            <img src="C:\Users\Anusha\Documents\VPProjects\images\decisiontree.jpg" alt="Project 2">
+            <div class="info">
+                <h2>Voice Classification Using Decision Tree</h2>
+                <p>In this project, I developed a decision tree-based model to classify voice recordings based on their acoustic features. The goal was to leverage machine learning techniques to accurately categorize voice samples into predefined classes, such as gender (Male/Female), using their acoustic characteristics.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Anish Ghimire. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #222; 
+            color: #fff; /* Text color */
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 10px 20px;
+            text-align: right;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        header ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        header ul li a:hover {
+            color: #ffd700;
+        }
+
+        .linkedin-link {
+            margin-left: auto; 
+        }
+
+        .linkedin-link a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .linkedin-link a:hover {
+            color: #ffd700;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 80px auto 20px; 
+            padding: 20px;
+            text-align: center; 
+            background-color: rgba(0, 0, 0, 0.8); 
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-img {
+            width: 800px; 
+            height: 800px; 
+            border-radius: 50%; 
+            margin: 0 auto;
+            object-fit: cover;
+            display: block;
+        }
+
+        .about-me-content {
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+        }
+
+        footer p {
+            font-size: 14px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tech.html">Technologies</a></li>
+                <li><a href="about.html">About Me</a></li>
+               
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="C:\Users\Anusha\Documents\VPProjects\images\my image.jpg" alt="Profile Picture" class="profile-img", width="1200", height="1600">
+        <h1>Anish Ghimire</h1>
+        <p class="about-me-content">I am a passionate Full Stack Developer and Data Science enthusiast, skilled in various technologies including Python, JavaScript, HTML/CSS,My SQL, PHP, Machine Learning and Deep Learning. I enjoy tackling challenging problems and exploring innovative solutions in both web development and machine learning.</p>
+        <p class="about-me-content">In addition to coding, I am an avid learner and always eager to expand my knowledge in new areas of technology and software development.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Anish Ghimire. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

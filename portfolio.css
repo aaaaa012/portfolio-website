@@ -1,0 +1,14 @@
+.linkedin-link {
+    margin-left: auto; 
+}
+
+.linkedin-link a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.linkedin-link a:hover {
+    color: #ffd700;
+}
